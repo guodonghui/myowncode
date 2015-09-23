@@ -9,7 +9,7 @@ def fizzbuzz
     elsif i % 3 == 0
       puts "#{i} is Fizz"
     elsif i % 5 == 0
-      puts "#{i} is Buzz"
+      puts "#{i} is Buzz"                   #感觉在else后面什么都不写不太对劲 不知道有什么更好的方法
     else
 	end
   end
@@ -19,6 +19,24 @@ end
 
 
 
+
 fizzbuzz
+
+=begin
+(1..100).each do |i|                  用switch方式执行没有结果 没看出来哪出问题了。
+
+ case i.to_i
+	when i % 3 == 0 && i % 5 == 0
+	puts "#{i} is FizzBuzz"
+	when i % 3 == 0
+	puts "#{i} is Fizz"
+	when i % 5 == 0
+	puts "#{i} is Buzz"
+	else
+		puts" "
+    end
+end
+	
+=end
 
 
