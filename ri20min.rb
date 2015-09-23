@@ -23,7 +23,7 @@ end
 fizzbuzz
 
 =begin
-(1..100).each do |i|                  用switch方式执行没有结果 没看出来哪出问题了。
+(1..100).each do |i|                  用switch方式执行之后没有显示正确结果都是回车的空行 没看出来哪出问题了。
 
  case i.to_i
 	when i % 3 == 0 && i % 5 == 0
